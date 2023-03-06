@@ -1,5 +1,7 @@
 import React from 'react';
 import bg1Img from "../assests/images/icon-bg1.svg";
+import transparencyImg from "../assests/images/icon-transparency.svg";
+
 import "./style.css";
 
 export default function Home()
@@ -7,7 +9,6 @@ export default function Home()
     return (
         <>
             <div className="backdropDiv1">
-            <div className="eclipseDiv"></div>
             <div id="home" className="mainWrapper1">
                 <div className="titleContent">
                     <div>
@@ -38,6 +39,31 @@ export default function Home()
                 </div>
                 <img src={bg1Img} alt="ai-img" className="float-img" />
             </div>
+            </div>
+            <div className='mainWrapper2'>
+                <div className='maintext2'>Build with us <span> where scalability is never and issue</span></div>
+                <div className='whyChooseDiv'>
+                    <div className='whyChooseHeading'>Why Choose us?</div>
+                    <div className='whyChooseTxt'>We make sure we bring you more value than you will be investing with us. <br/>Don’t just make dApps/Websites, build real profitable businesses with us.</div>
+                </div>
+                <div className='featureGrid'>
+                    <div className='featureGridItems'>
+                        <img src={transparencyImg} alt="transparency-img" className="featureGridIcons" />
+                        <div>Transparency</div>
+                    </div>
+                    <div className='featureGridItems'>
+                        <img src={transparencyImg} alt="transparency-img" className="featureGridIcons" />
+                        <div>Data Protection</div>
+                    </div>
+                    <div className='featureGridItems'>
+                        <img src={transparencyImg} alt="transparency-img" className="featureGridIcons" />
+                        <div>SAFU Developers</div>
+                    </div>
+                    <div className='featureGridItems'>
+                        <img src={transparencyImg} alt="transparency-img" className="featureGridIcons" />
+                        <div>Fast & Secure</div>
+                    </div>
+                </div>
             </div>
         </>
     );
