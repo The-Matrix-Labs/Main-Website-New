@@ -65,6 +65,52 @@ export default function Home()
                     </div>
                 </div>
             </div>
+            <div className='mainWrapper3'>
+                <div className='ourServicesHeading'>Our <span>Services</span></div>
+                <div className='ourServicesTxt'>Our services help everyone from startups to enterprises to launch and maintain their applications on the blockchain.</div>
+                <div className='serviceGrid'>
+                    <div className='serviceGridRow'>
+                    <div className='serviceGridItem'>
+                        <img src={transparencyImg} alt="transparency-img" className="serviceGridItemImg" />
+                        <div className='serviceGridItemHeading'>SMART CONTRACT</div>
+                        <div className='serviceGridItemTxt'>Our services help everyone from startups to enterprises and more</div>
+                        <div className='knowmoreBtn'>Know More</div>
+                    </div>
+                    <div className='serviceGridItem'>
+                        <img src={transparencyImg} alt="transparency-img" className="serviceGridItemImg" />
+                        <div className='serviceGridItemHeading'>DAPP DEVELOPMENT</div>
+                        <div className='serviceGridItemTxt'>Our services help everyone from startups to enterprises and more</div>
+                        <div className='knowmoreBtn'>Know More</div>
+                    </div>
+                    <div className='serviceGridItem'>
+                        <img src={transparencyImg} alt="transparency-img" className="serviceGridItemImg" />
+                        <div className='serviceGridItemHeading'>WEBSITE DEVELOPMENT</div>
+                        <div className='serviceGridItemTxt'>Our services help everyone from startups to enterprises and more</div>
+                        <div className='knowmoreBtn'>Know More</div>
+                    </div>
+                    </div>
+                    <div className='serviceGridRow'>
+                    <div className='serviceGridItem'>
+                        <img src={transparencyImg} alt="transparency-img" className="serviceGridItemImg" />
+                        <div className='serviceGridItemHeading'>NFT AND TOKEN</div>
+                        <div className='serviceGridItemTxt'>Our services help everyone from startups to enterprises and more</div>
+                        <div className='knowmoreBtn'>Know More</div>
+                    </div>
+                    <div className='serviceGridItem'>
+                        <img src={transparencyImg} alt="transparency-img" className="serviceGridItemImg" />
+                        <div className='serviceGridItemHeading'>ANDROID AND IOS APP</div>
+                        <div className='serviceGridItemTxt'>Our services help everyone from startups to enterprises and more</div>
+                        <div className='knowmoreBtn'>Know More</div>
+                    </div>
+                    <div className='serviceGridItem'>
+                        <img src={transparencyImg} alt="transparency-img" className="serviceGridItemImg" />
+                        <div className='serviceGridItemHeading'>MARKETPLACES</div>
+                        <div className='serviceGridItemTxt'>Our services help everyone from startups to enterprises and more</div>
+                        <div className='knowmoreBtn'>Know More</div>
+                    </div>
+                    </div>
+                </div>
+            </div>
         </>
     );
 }

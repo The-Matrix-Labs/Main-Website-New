@@ -203,6 +203,116 @@
     color: #FFFFFF;
 }
 
+
+.knowmoreBtn{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+    background: #27B67A;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.ourServicesHeading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 78px;
+
+    color: #FFFFFF;
+}
+
+.ourServicesTxt{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.ourServicesHeading span{
+    background: linear-gradient(90.06deg, #27B67A 1.07%, #38FFCF 99.95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.serviceGridItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.serviceGridItemImg{
+    width: 70px;
+    height: 70px;
+}
+
+.serviceGridItemHeading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+
+    color: #FFFFFF;
+}
+
+.serviceGridItemTxt{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    max-width: 300px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.mainWrapper3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    --max-width: 1300px;
+    --container-padding: 1rem;
+    width: min(var(--max-width), 100% - (var(--container-padding) * 2));
+    margin-inline: auto;
+    padding: 2em 4em 0em 4em;
+}
+
+.serviceGrid{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 5em;
+}
+
+.serviceGridRow{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
 @media only screen and (max-width: 1020px) {
     .mainWrapper1{
         padding: 5px 20px;
